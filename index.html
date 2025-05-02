@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vance Auto Detailing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .price-list, .form-section {
+            background-color: #fff;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vance Auto Detailing</h1>
+    <p>By signing below, I agree to pay in full for the detailing services provided by Vance Auto Detailing. I understand that once the service begins, I am fully responsible for the agreed cost and any applicable fees.</p>
+    
+    <div class="price-list">
+        <h2>Service Pricing</h2>
+        <ul>
+            <li><strong>Quick Wash & Vac</strong>: Exterior wash & dry, interior vacuum — $45</li>
+            <li><strong>Full Basic Detail</strong>: Wash & dry, vacuum, wipe down dashboard/doors, windows — $65</li>
+            <li><strong>Deluxe Detail</strong>: Full detail + tire shine + spray wax — $80–$90</li>
+        </ul>
+    </div>
+
+    <div class="form-section">
+        <h2>Customer Agreement Form</h2>
+        <form action="mailto:Vance.haddock@icloud.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="Date" required>
+
+            <label for="signature">Type Signature:</label>
+            <input type="text" id="signature" name="Signature" required>
+
+            <button type="submit">Submit Agreement</button>
+        </form>
+    </div>
+</body>
+</html>
